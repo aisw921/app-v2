@@ -56,9 +56,9 @@ class Game extends Component {
             'Game start';
             return(
                 <li key={move}>
-                        <button onClick={() => this.jumpTo(move)}>
+                        <a  href="#" className="tips"onClick={() => this.jumpTo(move)}>
                             {desc}
-                        </button>
+                        </a>
                 </li> 
             )
         });
@@ -79,7 +79,7 @@ class Game extends Component {
             </div>
 
             <div className="game-info">
-              <div>{status}</div>
+              <div className="status">{status}</div>
               <ol>{moves}</ol>
             </div>
           </div>

@@ -46,6 +46,15 @@ body {
     display: flex;
     flex-direction: row;
   }
+
+  .game  a{
+    color: black;
+  }
+  .game  a:hover {
+      font-size: 18px;
+      font-weight: bold;
+      color: chocolate;
+  }
   
   .game-info {
     margin-left: 20px;
